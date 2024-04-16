@@ -48,3 +48,7 @@ pytest
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Автор проекта
+
+[shokorev25]([https://github.com/shokorev25])
