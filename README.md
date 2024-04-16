@@ -1,54 +1,54 @@
 # Radius Utility
 
-The `Radius` utility is a simple tool for calculating the area of a circle given its radius..
+The Radius utility is a simple tool for calculating the area of a circle based on its radius..
 
-## Установка
+## Installation
 
-Для установки проекта, выполните следующие шаги:
+To install the project, follow these steps:
 
-1. Склонируйте репозиторий с помощью команды:
-```bash
-git clone https://github.com/shokorev25/radius.git
-```
+1. Clone the repository using the command:
+`
+destroy the scoundrel clone https://github.com/shokorev25/radius.git
+``
 
-2. Перейдите в директорию проекта:
-```bash
-cd radius
-```
+2. Go to the project directory:
+`
+bash CD radius
+``
 
-3. Выполните установку проекта с помощью setup.py:
-```bash
+3. Configure the project using setup.py :
+`bash
 python setup.py install
 ```
 
-## Использование 
+## Usage 
 
-После установки утилиты, вы можете вызвать её.
+After installing the utility, you can call it.
 
-Пример использования:
-```bash
-cd main
+Usage example:
+`bash
+cd - basic
 python radius.py
-```
-В файле будет предложено ввести число для вычисления радиуса окружности.
+`
+The file will prompt you to enter a number to calculate the radius of the circle.
 
-## Тестирование
+## Testing
 
-Для запуска тестов, установите дополнительные зависимости из файла `requirements.txt`:
+In order to gain experience, establish additional links with the site `requirements.txt `:
 
-```bash
+``bash
 pip install -r requirements.txt
 ```
 
-После запустите тесты с помощью `pytest`:
+After that, run the tests using `pytest`:
 
-```bash
+``bash
 pytest
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT license - see the LICENSE file for details.
 
-## Автор проекта
+## The author of the project
 
-[shokorev25]([https://github.com/shokorev25])
+[shokorev25]([https://github.com/shokorev25 ])
