@@ -7,17 +7,17 @@ The Radius utility is a simple tool for calculating the area of a circle based o
 To install the project, follow these steps:
 
 1. Clone the repository using the command:
-`
-destroy the scoundrel clone https://github.com/shokorev25/radius.git
-``
+```bash
+git clone https://github.com/shokorev25/radius.git
+```
 
 2. Go to the project directory:
-`
-bash CD radius
-``
+```bash
+cd radius
+```
 
 3. Configure the project using setup.py :
-`bash
+```bash
 python setup.py install
 ```
 
@@ -26,23 +26,23 @@ python setup.py install
 After installing the utility, you can call it.
 
 Usage example:
-`bash
-cd - basic
+```bash
+cd main
 python radius.py
-`
+```
 The file will prompt you to enter a number to calculate the radius of the circle.
 
 ## Testing
 
 In order to gain experience, establish additional links with the site `requirements.txt `:
 
-``bash
+```bash
 pip install -r requirements.txt
 ```
 
 After that, run the tests using `pytest`:
 
-``bash
+```bash
 pytest
 ```
 
