@@ -7,7 +7,11 @@ To use the Radius utility, you need to have Python version 3 or higher installed
 
 1. Installation: First, install the utility by executing the following command:
 
-pip install -e git+https://github.com/shokorev25/radius.git#egg=radius
+  pip install -e git+https://github.com/shokorev25/radius.git#egg=radius
+
+  Then run the following command to install the dependencies from the requirements.txt file:
+  pip install -r requirements.txt
+This will install pytest and coverage needed to run and analyze tests for your project in the future.
 
 
 2. Import: After successful installation, you can import the utility and use it in your code:
