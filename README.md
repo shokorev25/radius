@@ -7,7 +7,7 @@ To use the Radius utility, you need to have Python version 3 or higher installed
 
 1. Installation: First, install the utility by executing the following command:
 
-pip install git+https://github.com/shokorev25/radius.git
+pip install -e git+https://github.com/shokorev25/radius.git
 
 2. Import: After successful installation, you can import the utility and use it in your code:
 
