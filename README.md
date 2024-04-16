@@ -2,33 +2,30 @@
 
 The `Radius` utility is a simple tool for calculating the area of a circle given its radius..
 
-## Usage
-To use the Radius utility, you need to have Python version 3 or higher installed.
+## Установка
 
-1. Installation: First, install the utility by executing the following command:
+Для установки проекта, выполните следующие шаги:
 
-  pip install -e git+https://github.com/shokorev25/radius.git#egg=radius
+1. Склонируйте репозиторий с помощью команды:
+  git clone https://github.com/shokorev25/radius.git
 
-  Then run the following command to install the dependencies from the requirements.txt file:
-  pip install -r requirements.txt
-This will install pytest and coverage needed to run and analyze tests for your project in the future.
+2. Перейдите в директорию проекта:
+   cd radius
+
+3. Установите зависимости с помощью pip:
+   pip install -r requirements.txt
 
 
-2. Import: After successful installation, you can import the utility and use it in your code:
+4. Выполните установку проекта с помощью setup.py:
+   python setup.py install
 
-from radius import calculate_circle_area
+### Использование 
+После установки утилиты, вы можете вызвать её.
 
-3. Calculating Circle Area: Call the calculate_circle_area function with the radius of the circle to calculate its area:
-
-radius = float(input("Enter the radius of the circle: "))
-area = calculate_circle_area(radius)
-print("The area of the circle with radius", radius, "is", area)
-This code allows you to easily and quickly calculate the area of a circle given its radius, providing simplicity and convenience in usage.
-
-### Testing
-To ensure the correctness of the utility's functionality, a testing module is provided. You can run the tests using pytest: 
-
-pytest
+Пример использования:
+  cd main
+  python calculator.py
+Утилита предложит попросит ввести число.
 
 #### License
 This project is licensed under the MIT License - see the LICENSE file for details.
