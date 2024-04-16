@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
    name='radius',
@@ -8,7 +8,7 @@ setup(
    author='shokorev25',
    author_email='shokorev25@gmail.com',
    url='https://github.com/shokorev25/radius.git',
-   packages=['radius'],
+   packages=find_packages(),
    install_requires=[], # it is empty since we use standard python library
    extras_require={
         'test': [
