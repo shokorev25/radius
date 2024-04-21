@@ -18,7 +18,7 @@ cd radius
 
 3. Configure the project using setup.py :
 ```bash
-python setup.py install
+python3 setup.py install
 ```
 
 ## Usage 
@@ -28,7 +28,7 @@ After installing the utility, you can call it.
 Usage example:
 ```bash
 cd main
-python radius.py
+python3 radius.py
 ```
 The file will prompt you to enter a number to calculate the radius of the circle.
 
